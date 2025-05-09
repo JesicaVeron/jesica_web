@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #320a44, #c477f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .register-container {
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="password"],
+  form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .gender-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .gender-group label {
+    font-weight: normal;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b56edf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #53275e;
+  }
+  
+  .footer {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
